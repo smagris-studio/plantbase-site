@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlantBase</title>
+<style>
+  :root {
+    --bg: #07130c;
+    --bg2: #0b2416;
+    --panel: rgba(10, 36, 22, 0.85);
+    --text: #eafff2;
+    --muted: #93b8a2;
+    --green: #5fd78a;
+    --leaf: #a8e063;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    background: linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.7;
+  }
+  .container { max-width: 760px; margin: 0 auto; padding: 80px 24px; text-align: center; }
+  h1 {
+    font-size: 2.6rem;
+    background: linear-gradient(90deg, var(--green), var(--leaf));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  p.tagline { color: var(--muted); font-size: 1.1rem; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid rgba(95, 215, 138, 0.15);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 32px 0;
+    text-align: left;
+  }
+  a.button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 12px 28px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, var(--green), var(--leaf));
+    color: #06240f;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 48px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>PlantBase</h1>
+  <p class="tagline">Track, water, and plan — your plants, your garden, your pocket.</p>
+
+  <div class="panel">
+    <p>PlantBase is a plant-care companion for iPhone, Apple Watch, and your Home Screen: care schedules and reminders, a photo journal, a graphical bed planner with auto-arrange, plant recognition, and 300 plant presets.</p>
+  </div>
+
+  <a class="button" href="privacy.html">Privacy Policy</a>
+
+  <footer>
+    &copy; 2026 Smagris Studio. All rights reserved.
+  </footer>
+</div>
+</body>
+</html>
